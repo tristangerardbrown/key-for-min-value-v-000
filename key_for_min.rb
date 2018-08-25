@@ -1,4 +1,4 @@
-ikea_hash = {:chair => 25, :table => 85, :mattress => 450}
+name_hash = {:chair => 25, :table => 85, :mattress => 450}
 
 def key_for_min_value(name_hash)
 ikea.collect do |item, price|
@@ -7,4 +7,4 @@ end
 ikea[0]
 end
 
-key_for_min_value(ikea_hash)
+key_for_min_value(name_hash)
