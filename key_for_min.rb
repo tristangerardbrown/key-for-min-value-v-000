@@ -7,4 +7,4 @@ end
 ikea[0]
 end
 
-keys_for_min_value(ikea)
+key_for_min_value(ikea)
