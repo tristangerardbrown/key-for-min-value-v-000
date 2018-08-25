@@ -4,5 +4,7 @@ def key_for_min_value(name_hash)
 ikea.collect do |item, price|
   price.sort {|a, b| a <=> b}
 end
-ikea[1]
-end 
+ikea[0]
+end
+
+keys_for_min_value(ikea)
