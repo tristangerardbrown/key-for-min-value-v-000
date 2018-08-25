@@ -7,5 +7,6 @@ name_hash.collect do |item, price|
 end
 name_hash[0]
 end
+end 
 
 key_for_min_value(ikea)
